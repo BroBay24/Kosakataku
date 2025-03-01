@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ffffff"
+    android:padding="16dp">
+
+    <!-- Gambar atau Ikon Aplikasi -->
+    <ImageView
+        android:id="@+id/appIconImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:src="@mipmap/logokosa"
+        android:contentDescription="App Icon" />
+
+    <!-- Judul Halaman -->
+    <TextView
+        android:id="@+id/infoTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Informasi Aplikasi"
+        android:textSize="24sp"
+        android:textColor="#333333"
+        android:layout_marginBottom="16dp"
+        android:gravity="center" />
+
+    <!-- Deskripsi Aplikasi -->
+    <TextView
+        android:id="@+id/infoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi ini membantu Anda untuk belajar kata-kata dalam bahasa Inggris dan artinya. Setiap kata yang dipelajari bisa dipahami dengan mudah."
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_marginBottom="24dp"
+        android:gravity="center" />
+
+    <!-- Fitur Aplikasi -->
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact email : bayufrdinand@gmail.com"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_marginBottom="24dp"
+        android:gravity="center" />
+</LinearLayout>
